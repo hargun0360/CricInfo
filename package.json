@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "minimist": "^0.2.3"
+  }
+}
