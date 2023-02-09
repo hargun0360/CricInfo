@@ -15,5 +15,7 @@ let dtext = arr.join("\n");
 
 // Write create new file or rewrite the existing file from scratch
 fs.writeFileSync(args.dest , dtext , "utf-8");
-// append add the data after the content in existing file.
+// append add the data after the content in existing file if file not exit then create new file .
 fs.appendFileSync(args.dest , dtext , "utf-8")
+
+
